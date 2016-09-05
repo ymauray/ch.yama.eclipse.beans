@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension
+		point="org.eclipse.jdt.ui.cleanUps">
+		<cleanUp
+			id="ch.idinfo.eclipse.beans.propertiessaveaction.properties_clean_up"
+			class="ch.idinfo.eclipse.beans.propertiessaveaction.PropertiesCleanUp">
+		</cleanUp>
+
+		<cleanUpOptionsInitializer
+			class="ch.idinfo.eclipse.beans.propertiesupdater.PropertiesOnSaveOptionsInitializer"
+			cleanUpKind="saveAction">
+		</cleanUpOptionsInitializer>
+         
+		<cleanUpConfigurationUI
+			class="ch.idinfo.eclipse.beans.propertiesupdate.PropertiesTabPage"
+			name="Update properties"
+			cleanUpKind="saveAction">
+		</cleanUpConfigurationUI>
+   </extension>
+
+</plugin>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Beans
+Bundle-SymbolicName: ch.idinfo.eclipse.beans;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: IDINFORMATIQUE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.jdt.ui;visibility:=reexport,
+ org.eclipse.ltk.core.refactoring,
+ org.eclipse.equinox.registry,
+ org.eclipse.jdt.core,
+ org.eclipse.swt
