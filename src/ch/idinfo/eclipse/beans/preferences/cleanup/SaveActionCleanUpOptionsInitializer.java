@@ -1,11 +1,11 @@
-package ch.idinfo.eclipse.beans.propertiesupdater;
+package ch.idinfo.eclipse.beans.preferences.cleanup;
 
 import org.eclipse.jdt.ui.cleanup.CleanUpOptions;
 import org.eclipse.jdt.ui.cleanup.ICleanUpOptionsInitializer;
 
-public class PropertiesOnSaveOptionsInitializer implements ICleanUpOptionsInitializer {
+public class SaveActionCleanUpOptionsInitializer implements ICleanUpOptionsInitializer {
 
-	public PropertiesOnSaveOptionsInitializer() {
+	public SaveActionCleanUpOptionsInitializer() {
 	}
 
 	@Override

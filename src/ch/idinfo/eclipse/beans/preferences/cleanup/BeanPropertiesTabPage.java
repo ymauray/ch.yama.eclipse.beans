@@ -1,4 +1,4 @@
-package ch.idinfo.eclipse.beans.propertiesupdater;
+package ch.idinfo.eclipse.beans.preferences.cleanup;
 
 import org.eclipse.jdt.ui.cleanup.CleanUpOptions;
 import org.eclipse.jdt.ui.cleanup.ICleanUpConfigurationUI;
@@ -6,11 +6,11 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.SashForm;
 import org.eclipse.swt.widgets.Composite;
 
-public class PropertiesTabPage implements ICleanUpConfigurationUI {
+public class BeanPropertiesTabPage implements ICleanUpConfigurationUI {
 
 	private CleanUpOptions m_options;
 
-	public PropertiesTabPage() {
+	public BeanPropertiesTabPage() {
 		super();
 	}
 

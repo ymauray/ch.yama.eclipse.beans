@@ -5,19 +5,20 @@
 		point="org.eclipse.jdt.ui.cleanUps">
 		<cleanUp
 			id="ch.idinfo.eclipse.beans.propertiessaveaction.properties_clean_up"
-			class="ch.idinfo.eclipse.beans.propertiessaveaction.PropertiesCleanUp">
+			class="ch.idinfo.eclipse.beans.fix.BeanPropertiesCleanUp">
 		</cleanUp>
 
 		<cleanUpOptionsInitializer
-			class="ch.idinfo.eclipse.beans.propertiesupdater.PropertiesOnSaveOptionsInitializer"
+			class="ch.idinfo.eclipse.beans.preferences.cleanup.SaveActionCleanUpOptionsInitializer"
 			cleanUpKind="saveAction">
 		</cleanUpOptionsInitializer>
          
 		<cleanUpConfigurationUI
-			class="ch.idinfo.eclipse.beans.propertiesupdate.PropertiesTabPage"
-			name="Update properties"
+			class="ch.idinfo.eclipse.beans.preferences.cleanup.BeanPropertiesTabPage"
+			name="Bean properties"
 			cleanUpKind="saveAction">
 		</cleanUpConfigurationUI>
+		
    </extension>
 
 </plugin>
